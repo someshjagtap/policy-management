@@ -1,0 +1,13 @@
+{
+  "policyManagementApp": {
+    "PremiumMode": {
+      "null": "",
+      "YEARLY": "Yearly",
+      "HLY": "Halfyear",
+      "QLY": "Qly",
+      "MONTHLY": "Monthly",
+      "SSS": "sss",
+      "SINGLE": "Single"
+    }
+  }
+}

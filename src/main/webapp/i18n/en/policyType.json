@@ -1,0 +1,11 @@
+{
+  "policyManagementApp": {
+    "PolicyType": {
+      "null": "",
+      "LIFE": "Life",
+      "HEATH": "Health",
+      "MOTAR": "Motar",
+      "OTHER": "Other"
+    }
+  }
+}
