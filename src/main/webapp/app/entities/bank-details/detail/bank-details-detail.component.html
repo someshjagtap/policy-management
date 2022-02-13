@@ -1,0 +1,68 @@
+<div class="row justify-content-center">
+  <div class="col-8">
+    <div *ngIf="bankDetails">
+      <h2 data-cy="bankDetailsDetailsHeading"><span jhiTranslate="policyManagementApp.bankDetails.detail.title">Bank Details</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ bankDetails.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="policyManagementApp.bankDetails.name">Name</span></dt>
+        <dd>
+          <span>{{ bankDetails.name }}</span>
+        </dd>
+        <dt><span jhiTranslate="policyManagementApp.bankDetails.branch">Branch</span></dt>
+        <dd>
+          <span>{{ bankDetails.branch }}</span>
+        </dd>
+        <dt><span jhiTranslate="policyManagementApp.bankDetails.branchCode">Branch Code</span></dt>
+        <dd>
+          <span>{{ bankDetails.branchCode }}</span>
+        </dd>
+        <dt><span jhiTranslate="policyManagementApp.bankDetails.city">City</span></dt>
+        <dd>
+          <span>{{ bankDetails.city }}</span>
+        </dd>
+        <dt><span jhiTranslate="policyManagementApp.bankDetails.contactNo">Contact No</span></dt>
+        <dd>
+          <span>{{ bankDetails.contactNo }}</span>
+        </dd>
+        <dt><span jhiTranslate="policyManagementApp.bankDetails.ifcCode">Ifc Code</span></dt>
+        <dd>
+          <span>{{ bankDetails.ifcCode }}</span>
+        </dd>
+        <dt><span jhiTranslate="policyManagementApp.bankDetails.account">Account</span></dt>
+        <dd>
+          <span>{{ bankDetails.account }}</span>
+        </dd>
+        <dt><span jhiTranslate="policyManagementApp.bankDetails.accountType">Account Type</span></dt>
+        <dd>
+          <span>{{ bankDetails.accountType }}</span>
+        </dd>
+        <dt><span jhiTranslate="policyManagementApp.bankDetails.lastModified">Last Modified</span></dt>
+        <dd>
+          <span>{{ bankDetails.lastModified }}</span>
+        </dd>
+        <dt><span jhiTranslate="policyManagementApp.bankDetails.lastModifiedBy">Last Modified By</span></dt>
+        <dd>
+          <span>{{ bankDetails.lastModifiedBy }}</span>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/bank-details', bankDetails.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

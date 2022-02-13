@@ -1,0 +1,27 @@
+{
+  "policyManagementApp": {
+    "policyUsersType": {
+      "home": {
+        "title": "Policy Users Types",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Policy Users Type",
+        "createOrEditLabel": "Create or edit a Policy Users Type",
+        "notFound": "No Policy Users Types found"
+      },
+      "created": "A new Policy Users Type is created with identifier {{ param }}",
+      "updated": "A Policy Users Type is updated with identifier {{ param }}",
+      "deleted": "A Policy Users Type is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Policy Users Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Policy Users Type"
+      },
+      "id": "ID",
+      "name": "Name",
+      "lastModified": "Last Modified",
+      "lastModifiedBy": "Last Modified By",
+      "policyUsers": "Policy Users"
+    }
+  }
+}
