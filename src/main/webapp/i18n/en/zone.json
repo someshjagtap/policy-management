@@ -1,0 +1,10 @@
+{
+  "policyManagementApp": {
+    "Zone": {
+      "null": "",
+      "A": "a",
+      "B": "b",
+      "C": "c"
+    }
+  }
+}
