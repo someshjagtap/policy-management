@@ -1,0 +1,10 @@
+{
+  "policyManagementApp": {
+    "AccessLevel": {
+      "null": "",
+      "ADMIN": "Admin",
+      "AGENT": "Agent",
+      "CUSTOMER": "Customer"
+    }
+  }
+}
